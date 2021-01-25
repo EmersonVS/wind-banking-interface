@@ -17,7 +17,4 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
   ]
 })
 export class CpfInputCardModule { 
-  constructor(library: FaIconLibrary) {
-    library.addIcons(faArrowRight)
-  }
 }

@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AccountComponent } from './feature/account/account.component';
+import { AccountModule } from './feature/account/account.module';
 import { DemoComponent } from './feature/account/demo/demo.component';
 import { WelcomeComponent } from './feature/welcome/welcome.component';
+import { NotFoundPageComponent } from './shared/modules/not-found-page/not-found-page.component';
 
 
 const routes: Routes = [
@@ -22,6 +24,10 @@ const routes: Routes = [
         component: DemoComponent
       }
     ]
+  },
+  {
+    path: '**',
+    component: NotFoundPageComponent
   }
 ];
 

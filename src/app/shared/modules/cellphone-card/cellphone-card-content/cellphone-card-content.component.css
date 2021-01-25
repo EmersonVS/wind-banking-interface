@@ -1,0 +1,52 @@
+.common-margin {
+    margin: 0% 3% 0% 3%;
+}
+
+.account-detail {
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.overlay-box-body-content {
+    padding: 4% 4% 4% 4%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.money-action-box {
+    padding: 5% 5% 5% 0%;
+}
+
+.money-action-box p{
+    margin: auto auto auto 4px !important;
+    vertical-align: middle !important;
+}
+
+.money-action-button {
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.overlay-box-footer button{
+    outline: none;
+    border: none;
+    border-radius: 0px 0px 16px 16px;
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) { 
+
+}

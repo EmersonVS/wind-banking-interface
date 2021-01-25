@@ -12,7 +12,6 @@ export class AccountComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    // $('#login-card').css('height', `${screen.height}px`)
   }
 
 }

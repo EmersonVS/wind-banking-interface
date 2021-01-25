@@ -1,0 +1,57 @@
+.logo64-img {
+    min-width: 32px !important;
+    min-height: 32px !important;
+    max-width: 32px !important;
+    max-height: 32px !important;
+}
+
+.overlay {
+    position: absolute;
+    width: 80%;
+}
+
+.overlay-box-header {
+    padding-top: 18%;
+    font-size: 18px;
+    margin-bottom: 20%;
+}
+
+.overlay-box-body {
+    font-size: 16px;
+}
+
+.header-message{
+    margin: auto;
+    padding-left: 5px;
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) { 
+    img {
+        max-width: 70%;
+    }
+
+    .overlay {
+        width: 18.5%;
+    }
+    
+    .overlay-box-header {
+        padding-top: 15%;
+    }
+
+    .header-message{
+        font-size: 16px;
+    }
+
+}

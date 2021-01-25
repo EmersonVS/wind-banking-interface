@@ -9,13 +9,15 @@ import { SobreNosComponent } from './components/sobre-nos/sobre-nos.component';
 import { PixComponent } from './components/pix/pix.component';
 import { CpfInputCardModule } from 'src/app/shared/modules/cpf-input-card/cpf-input-card.module';
 import { WhiteDivModule } from 'src/app/shared/modules/white-div/white-div.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
     CommonModule,
     FontAwesomeModule,
     CpfInputCardModule,
-    WhiteDivModule
+    WhiteDivModule,
+    RouterModule
   ],
   declarations: [
     WelcomeComponent,

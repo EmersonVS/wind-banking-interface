@@ -7,6 +7,7 @@ import { faSignInAlt, faBars } from '@fortawesome/free-solid-svg-icons';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomeModule } from './feature/welcome/welcome.module';
+import { NotFoundPageModule } from './shared/modules/not-found-page/not-found-page.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { WelcomeModule } from './feature/welcome/welcome.module';
     BrowserModule,
     FontAwesomeModule,
     AppRoutingModule,
-    WelcomeModule
+    WelcomeModule,
+    NotFoundPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

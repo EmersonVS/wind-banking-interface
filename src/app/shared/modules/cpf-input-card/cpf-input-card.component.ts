@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-cpf-input-card',
@@ -7,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CpfInputCardComponent implements OnInit {
 
-  constructor() { }
+  constructor(library: FaIconLibrary) {
+    library.addIcons(faArrowRight)
+  }
 
   ngOnInit() {
   }

@@ -1,0 +1,12 @@
+<img class="w-100" src="../../../../assets/media/phone.png">
+<div [id]="accountInfo.username" class="d-flex flex-column device-justify white-font overlay">
+  <div class="overlay-box-header w-100 d-flex justify-content-between">
+    <img class="logo64-img" src="../../../../assets/media/Logo64.png">
+    <p class="header-message w-100">Bem-vindo, {{accountInfo.username}}</p>
+    <fa-icon [icon]="['fas', 'user']"></fa-icon>
+  </div>
+  <div class="overlay-box-body d-flex w-100 justify-content-between">
+    <app-cellphone-card-content [saldo]="cardInfo.saldoCC" [type]="'Conta corrente'" [actionButtons]="actionButtons.ccButtons" class="w-50"></app-cellphone-card-content>
+    <app-cellphone-card-content [saldo]="cardInfo.saldoPP" [type]="'Conta poupança'" [actionButtons]="actionButtons.ppButtons" class="w-50"></app-cellphone-card-content>
+  </div>
+</div>
