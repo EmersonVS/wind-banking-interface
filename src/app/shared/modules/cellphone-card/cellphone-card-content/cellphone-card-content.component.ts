@@ -13,9 +13,9 @@ export class CellphoneCardContentComponent implements OnInit {
 
   @Input() saldo;
   @Input() type;
-  @Input() actionButtons : Array<ActionButton>;
-  saldoRegex : string;
-  
+  @Input() actionButtons: Array<ActionButton>;
+  saldoRegex: string;
+
   constructor(library: FaIconLibrary) {
     library.addIcons(faEye, faExchangeAlt, faPiggyBank, faWallet, faSpinner, faUniversity, faHandHoldingUsd)
   }
@@ -26,6 +26,39 @@ export class CellphoneCardContentComponent implements OnInit {
 
   setReaisMask = (number) => {
     return `R$ ${number.toFixed(2).replace('.', ',').replace(/(\d)(?=(\d{3})+\,)/g, "$1.")}`;
+  }
+
+  transfer = () => {
+    console.log("Transferindo");
+  }
+
+  soon = () => {
+    console.log("Em breve");
+  }
+
+  save = () => {
+    console.log("Guardando");
+  }
+
+  redeem = () => {
+    console.log("Resgatando");
+  }
+
+  doAction = (specificFunction) => {
+    switch (specificFunction) {
+      case 'transfer':
+        this.transfer()
+        break;
+      case 'save':
+        this.save()
+        break;
+      case 'redeem':
+        this.redeem()
+        break;
+      case 'soon':
+        this.soon()
+        break;
+    }
   }
 
 }

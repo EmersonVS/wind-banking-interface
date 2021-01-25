@@ -1,4 +1,5 @@
 export interface ActionButton {
     icon: string,
-    label: string
+    label: string,
+    function: string
 }

@@ -7,7 +7,7 @@
     <p class="m-0">{{saldoRegex}}</p>
   </div>
   <div *ngFor="let buttonInfo of actionButtons" class="d-flex flex-row money-action-box">
-    <button  class="money-action-button dark-pink white-font">
+    <button (click)="doAction(buttonInfo.function)" class="money-action-button dark-pink white-font">
       <fa-icon [icon]="buttonInfo.icon"></fa-icon>
     </button>
     <p>{{ buttonInfo.label }}</p>

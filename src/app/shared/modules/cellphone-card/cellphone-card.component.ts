@@ -17,29 +17,35 @@ export class CellphoneCardComponent implements OnInit {
     ppButtons: [
       {
         icon: "wallet",
-        label: 'Resgatar'
+        label: 'Resgatar',
+        function: 'redeem'
       },
       {
         icon: "university",
-        label: 'Investir'
+        label: 'Investir',
+        function: 'soon'
       },
       {
         icon: "hand-holding-usd",
-        label: 'Doar'
+        label: 'Doar',
+        function: 'soon'
       }
     ],
     ccButtons: [
       {
         icon: "exchange-alt",
-        label: 'Transferir'
+        label: 'Transferir',
+        function: 'transfer'
       },
       {
         icon: "piggy-bank",
-        label: 'Guardar'
+        label: 'Guardar',
+        function: 'save'
       },
       {
         icon: "spinner",
-        label: 'Pix'
+        label: 'Pix',
+        function: 'soon'
       }
     ]
   }
