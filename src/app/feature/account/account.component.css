@@ -1,0 +1,113 @@
+#login-card {
+    padding-top: 3%;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+#login-header {
+    padding-top: 1%;
+}
+
+#login-header img {
+    margin-top: 5%;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+#login-header img {
+    padding-top: 4%;
+}
+
+#login-form {
+    padding: 5%;
+}
+
+#login-form input, #login-form button {
+    outline: none;
+    border: none;
+    max-width: 70%;
+}
+
+#login-form input {
+    margin: 10% 0% 2% 0;
+}
+
+#login-form button {
+    margin-top: 10%;
+    min-width: 28%;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+#login-footer {
+    padding: 6.8%;
+    text-align: center;
+    width: 80% !important;
+    border-radius: 50px;
+    margin: 10% 0% 10% 0%;
+}
+
+#demo-button {
+    outline: none;
+    border: none;
+    max-width: 70%;
+    margin-top: 3%;
+    min-width: 20%;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) { 
+    
+    #login-card {
+        padding-top: 0;
+    }
+
+    #login-form input, #login-form button {
+        outline: none;
+        border: none;
+        max-width: 40%;
+    }
+
+    #login-form input {
+        margin: 0% 0% 1% 0%;
+    }
+    
+    #login-form button {
+        margin-top: 3%;
+        min-width: 20%;
+        padding: 1%;
+        border-radius: 30px;
+    }
+
+    #login-footer {
+        padding: 2%;
+        text-align: center;
+        width: 30% !important;
+        border-radius: 50px;
+        margin: 0% 0% 5% 0%;
+    }
+
+    #demo-button {
+        outline: none;
+        border: none;
+        max-width: 70%;
+        margin-top: 3%;
+        min-width: 20%;
+        padding: 2%;
+        border-radius: 10px;
+    }
+
+}
