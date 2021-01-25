@@ -1,8 +1,10 @@
 import { Component, Input, OnInit, } from '@angular/core';
 import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
-import { AccountBasicInfo } from '../../class/account-basic-info';
+import { User } from '../../class/user';
 import { AccountCardInfo } from '../../interface/account-card-info';
+import { FinancialService } from '../../services/financial/financial.service';
+import { environment } from '../../../../environments/environment'
 
 @Component({
   selector: 'app-cellphone-card',
@@ -11,46 +13,11 @@ import { AccountCardInfo } from '../../interface/account-card-info';
 })
 export class CellphoneCardComponent implements OnInit {
 
-  @Input() accountInfo: AccountBasicInfo;
+  @Input() accountInfo: User;
   @Input() cardInfo: AccountCardInfo;
-  actionButtons = {
-    ppButtons: [
-      {
-        icon: "wallet",
-        label: 'Resgatar',
-        function: 'redeem'
-      },
-      {
-        icon: "university",
-        label: 'Investir',
-        function: 'soon'
-      },
-      {
-        icon: "hand-holding-usd",
-        label: 'Doar',
-        function: 'soon'
-      }
-    ],
-    ccButtons: [
-      {
-        icon: "exchange-alt",
-        label: 'Transferir',
-        function: 'transfer'
-      },
-      {
-        icon: "piggy-bank",
-        label: 'Guardar',
-        function: 'save'
-      },
-      {
-        icon: "spinner",
-        label: 'Pix',
-        function: 'soon'
-      }
-    ]
-  }
+  actionButtons = environment.actionButtons
 
-  constructor(library: FaIconLibrary) {
+  constructor(library: FaIconLibrary, private financialService : FinancialService) {
     library.addIcons(faUser)
   }
 

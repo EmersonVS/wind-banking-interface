@@ -12,7 +12,57 @@ export const environment = {
       redeem: 'http://192.168.0.12:8084/financial/redeem',
       balance: 'http://192.168.0.12:8084/financial/info'
     }
-  }
+  },
+  demoAccounts: [
+    {
+      username: "demoAccount1",
+      password: "123"
+    },
+    {
+      username: "demoAccount2",
+      password: "123"
+    },
+    {
+      username: "demoAccount3",
+      password: "123"
+    }
+  ],
+  actionButtons: {
+    ppButtons: [
+      {
+        icon: "wallet",
+        label: 'Resgatar',
+        function: 'redeem'
+      },
+      {
+        icon: "university",
+        label: 'Investir',
+        function: 'soon'
+      },
+      {
+        icon: "hand-holding-usd",
+        label: 'Doar',
+        function: 'soon'
+      }
+    ],
+    ccButtons: [
+      {
+        icon: "exchange-alt",
+        label: 'Transferir',
+        function: 'transfer'
+      },
+      {
+        icon: "piggy-bank",
+        label: 'Guardar',
+        function: 'save'
+      },
+      {
+        icon: "spinner",
+        label: 'Pix',
+        function: 'soon'
+      }
+    ]
+  } 
 };
 
 /*
