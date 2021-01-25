@@ -1,1 +1,105 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    color: black;
+    font-size: 22px;
+}
+
+.desktop-display {
+    display: none;
+}
+
+.mobile-display {
+    display: flex;
+}
+
+.device-flex-direction{
+    flex-direction: column;
+}
+
+.device-justify{
+    align-items: center;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none !important;
+    color: black;
+}
+
+.ligth-pink-2 {
+    background-color: #E46FF3 !important;
+    opacity: 65%;
+}
+
+.ligth-pink-font {
+    background-color: #E46FF3 !important;
+}
+
+.ligth-pink {
+    background-color: #DC78E8 !important;
+}
+
+.ligth-pink-font {
+    background-color: #DC78E8 !important;
+}
+
+.pink {
+    background-color: #D961E6 !important;
+}
+
+.pink-font {
+    color: #D961E6 !important;
+}
+
+.dark-pink {
+    background-color: #AA43B7;
+}
+
+.dark-pink-font {
+    color: #AA43B7;
+}
+
+.white {
+    background-color: white !important;
+}
+
+.bolder {
+    font-weight: bolder !important;
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) { 
+
+    .desktop-display {
+        display: flex;
+    }
+
+    .mobile-display {
+        display: none;
+    }
+
+    .device-flex-direction{
+        flex-direction: row;
+    }
+
+    .device-justify{
+        justify-content: space-around;
+    }
+
+}

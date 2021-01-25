@@ -1,0 +1,35 @@
+#comming-soon {
+    color: white;
+    font-size: 80px;
+    margin: 20% 1% 14% 1%;
+    -moz-border-radius: 70px; 
+    -webkit-border-radius: 70px; 
+    border-radius: 70px;
+    padding: 3%;
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) { 
+
+    #comming-soon {
+        color: white;
+        font-size: 120px;
+        margin: 20% 1% 14% 1%;
+        -moz-border-radius: 170px; 
+        -webkit-border-radius: 170px; 
+        border-radius: 170px;
+        padding: 3%;
+    }
+
+}

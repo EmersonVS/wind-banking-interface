@@ -1,0 +1,47 @@
+<div id="app-welcome" class="w-100 position-relative overflow-hidden text-center">
+  <nav class="navbar-mobile navbar white p-0 mobile-display fixed-top">
+    <a class="navbar-brand bolder p-1" href="#">Wind Banking</a>
+    <button class="navbar-toggler m-1 pink" type="button" data-toggle="collapse" data-target="#navbarMobile" aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation">
+      <fa-icon icon="bars"></fa-icon>
+    </button>
+    <div class="collapse navbar-collapse w-100 p-1" id="navbarMobile">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active mobile-active">
+          <a class="nav-item nav-active" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item" href="#">Conta Wind</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item" href="#">Sobre nós</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item" href="#">Pix<span class="ligth-pink-2 rounded-8 ml-1 p-1">em breve</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-item pink-font" href="#">Login<fa-icon class="ml-3" icon="sign-in-alt"></fa-icon></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav class="fixed-top navbar white desktop-display">
+    <div class="d-flex flex-row flex-wrap w-50 justify-content-around">
+      <a class="nav-item nav-active" href="#">Inicio</a>
+      <a class="nav-item" href="#">Conta Wind</a>
+      <a class="nav-item" href="#">Sobre nós</a>
+      <a class="nav-item" href="#">Pix<span class="ligth-pink-2 rounded-8 ml-1 p-1">em breve</span></a>
+    </div>
+    <div class="d-flex flex-row w-25 justify-content-center bolder">
+      <a class="nav-item pink-font" href="#">Login<fa-icon class="ml-3" icon="sign-in-alt"></fa-icon></a>
+    </div>
+  </nav>
+  <div clas="w-100 d-flex text-center flex-column">
+    <app-inicio></app-inicio>
+    <app-white-div></app-white-div>
+    <app-conta-wind></app-conta-wind>
+    <app-white-div></app-white-div>
+    <app-sobre-nos></app-sobre-nos>
+    <app-white-div></app-white-div>
+    <app-pix></app-pix>
+</div>

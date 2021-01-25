@@ -1,0 +1,56 @@
+.card-custom {
+    margin: 2%;
+    box-shadow: 3px 5px 5px black;
+    border-radius: 40px;
+}
+
+.card-custom-header {
+    margin-top: 5%;
+    margin-bottom: 7.5%;
+}
+
+.card-custom-body {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.input-cpf {
+    align-self: center;
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    opacity: 60%;
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+
+.button-cpf {
+    align-self: center;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 0% 4% 0% 4%;
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) { 
+
+}
+
+@media (min-width: 1400px) { 
+
+}

@@ -1,0 +1,63 @@
+#culture-header {
+    color: white;
+    font-size: 32px;
+    margin: 0 !important;
+    padding: 4%;
+}
+
+#culture-body {
+    margin: 0% 5% 15% 5%;
+}
+
+.subject {
+    color: white;
+    font-weight: bolder;
+    font-size: 26px;
+    border-bottom: 1px solid black;
+}
+
+.subject p {
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+}
+
+.active-subject {
+    border-bottom: 3px solid black;
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) { 
+
+    #culture-header {
+        color: white;
+        font-size: 32px;
+        padding: 4%;
+    }
+    
+    #culture-body {
+        margin: 0% 5% 15% 5%;
+    }
+    
+    .subject {
+        color: white;
+        font-weight: bolder;
+        font-size: 26px;
+        border-bottom: 1px solid black;
+    }
+    
+    .active-subject {
+        border-bottom: 3px solid black;
+    }
+
+}
