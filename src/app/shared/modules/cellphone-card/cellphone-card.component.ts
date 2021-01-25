@@ -1,4 +1,6 @@
 import { Component, Input, OnInit, } from '@angular/core';
+import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { AccountBasicInfo } from '../../class/account-basic-info';
 import { AccountCardInfo } from '../../interface/account-card-info';
 
@@ -42,7 +44,9 @@ export class CellphoneCardComponent implements OnInit {
     ]
   }
 
-  constructor() { }
+  constructor(library: FaIconLibrary) {
+    library.addIcons(faUser)
+  }
 
   ngOnInit() {
   }

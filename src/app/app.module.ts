@@ -8,6 +8,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomeModule } from './feature/welcome/welcome.module';
 import { NotFoundPageModule } from './shared/modules/not-found-page/not-found-page.module';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +21,8 @@ import { NotFoundPageModule } from './shared/modules/not-found-page/not-found-pa
     FontAwesomeModule,
     AppRoutingModule,
     WelcomeModule,
-    NotFoundPageModule
+    NotFoundPageModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -17,7 +17,7 @@ export class CellphoneCardContentComponent implements OnInit {
   saldoRegex : string;
   
   constructor(library: FaIconLibrary) {
-    library.addIcons(faUser, faEye, faExchangeAlt, faPiggyBank, faWallet, faSpinner, faUniversity, faHandHoldingUsd)
+    library.addIcons(faEye, faExchangeAlt, faPiggyBank, faWallet, faSpinner, faUniversity, faHandHoldingUsd)
   }
 
   ngOnInit() {

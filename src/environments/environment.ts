@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  endpoints: {
+    auth: 'http://192.168.0.12:8084/auth/authenticate',
+    financial: {
+      transfer: 'http://192.168.0.12:8084/financial/transfer',
+      save: 'http://192.168.0.12:8084/financial/save',
+      redeem: 'http://192.168.0.12:8084/financial/redeem',
+      balance: 'http://192.168.0.12:8084/financial/info'
+    }
+  }
 };
 
 /*
